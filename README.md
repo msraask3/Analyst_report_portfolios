@@ -14,9 +14,7 @@ Each folder contains following files
 - `utils.py`: Provides utility functions including directory creation (mkdir), and functions to get previous (prev_month) and next months (next_month). Also, it sets up basic logging.
 - `evaluation.py` : Contains functions to fetch KOSPI data (fetch_kospi_data) and evaluate the portfolio (evaluate_portfolio). It calculates and compares various metrics like annualized return, volatility, Sharpe ratio, and maximum drawdown (MDD) for the portfolio and KOSPI.
 - `strategy.py`: Includes functions to fetch price data for stock codes (get_price_data), and generate buy signals based on different strategies.
-- `main.py`: Serves as the entry point for the application./
-/
-
+- `main.py`: Serves as the entry point for the application.
 
 
 Example usage
