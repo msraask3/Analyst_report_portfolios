@@ -20,7 +20,7 @@ Each folder contains following files and folder
 
 Example usage
 ```
-python main.py --dataset_name gpt_3.5 --strategy_name incremental_long_short
+python main.py --dataset_name gpt --strategy_name incremental_long_short
 
 ```
-This command will run the `main.py` script using scores extracted from 'gpt 3.5' as the dataset and the 'incremental_long_short' strategy.
+This command will run the `main.py` script using scores extracted from 'gpt' as the dataset and the 'incremental_long_short' strategy.
