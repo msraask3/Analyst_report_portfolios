@@ -6,7 +6,7 @@ import os
 
 
 def get_price_data(codes):
-    # Ensure the directory exists
+
     mkdir(DATA_PATH)
     
     for code in codes:
@@ -94,5 +94,4 @@ def compute_daily_returns(signal, months, transaction_cost):
         port_daily_returns = pd.DataFrame(port_daily_returns)
         port_monthly_returns[month] = port_daily_returns.mean(axis=1)
 
-    # Concatenate and return all monthly returns
     return pd.concat(port_monthly_returns.values(), axis=0)
