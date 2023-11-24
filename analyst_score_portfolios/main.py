@@ -15,7 +15,7 @@ def main():
 
 
     # Load the dataset
-    dataset_path = f'/Users/kimseonmi/Desktop/NLP/Analyst/코드/monthly_portfolio/score/{args.dataset_name}.csv'
+    dataset_path = f'./score/{args.dataset_name}.csv'
     df = pd.read_csv(dataset_path, index_col=0)
     df.index = pd.to_datetime(df.index)
     # Extract stock codes
