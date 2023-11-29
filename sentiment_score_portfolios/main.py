@@ -1,5 +1,5 @@
 import strategy
-import pandas as pd  # It seems you were using pandas without importing it.
+import pandas as pd  
 from config import DEFAULT_START_DATE, DEFAULT_END_DATE, DEFAULT_TRANSACTION_COST
 from evaluation import fetch_kospi_data, evaluate_portfolio
 import logging
