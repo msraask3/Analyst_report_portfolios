@@ -4,7 +4,7 @@ from config import DEFAULT_START_DATE, DEFAULT_END_DATE, DEFAULT_TRANSACTION_COS
 from evaluation import fetch_kospi_data, evaluate_portfolio
 import logging
 from utils import next_month 
-import argparse  # It seems argparse was not imported in your code.
+import argparse 
 
 logging.basicConfig(level=logging.INFO)
 
