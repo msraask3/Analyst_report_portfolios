@@ -42,7 +42,7 @@ def calculate_returns(codes, returns_dict, j, s, file_path=DATA_PATH, is_short=F
                 if is_short:
                     initial_return = (price_close - price_open) / price_open - 2 * transaction_cost
                 else:
-                    initial_return = (price_close - price_open) / price_open - transaction_cost # 이 부분 고치기
+                    initial_return = (price_close - price_open) / price_open - transaction_cost 
 
                 daily_pct_return = target_price.loc[j]['Close'].pct_change()
                 daily_pct_return.iloc[0] = initial_return  # the first day return includes the transaction cost
